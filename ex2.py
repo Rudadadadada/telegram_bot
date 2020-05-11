@@ -4,8 +4,8 @@ import datetime
 from data import TOKEN
 
 
-REQUEST_KWARGS = {'proxy_url': 'socks5://127.0.0.1:9150'}
-# REQUEST_KWARGS = {}
+# REQUEST_KWARGS = {'proxy_url': 'socks5://127.0.0.1:9150'}
+REQUEST_KWARGS = {}
 
 
 def get_time(update, context):
