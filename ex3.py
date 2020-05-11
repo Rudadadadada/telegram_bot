@@ -56,7 +56,7 @@ def main():
     updater = Updater(TOKEN, use_context=True, request_kwargs=REQUEST_KWARGS)
     dispatcher = updater.dispatcher
 
-    dispatcher.add_handler(CommandHandler("set", set_timer,
+    dispatcher.add_handler(CommandHandler("set_timer", set_timer,
                                           pass_args=True,
                                           pass_job_queue=True,
                                           pass_chat_data=True))
